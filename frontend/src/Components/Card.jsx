@@ -6,22 +6,22 @@ function Card({ movie }) {
   }
 
   return (
-    <div className="movie-card">
-      <div className="movie-poster">
+    <div className="card">
+      <div className="poster">
         <img src={movie.url} alt={movie.title} />
 
         <div className="category-badge">
           {movie.category || "DOORS"}
         </div>
 
-        <div className="movie-overlay">
-          <button className="favorite-btn" onClick={onfavoriteClick}>
+        <div className="overlay">
+          <button className="cart-btn" onClick={onfavoriteClick}>
             🤍
           </button>
         </div>
       </div>
 
-      <div className="movie-info">
+      <div className="info">
         <h3>{movie.title}</h3>
 
         <p className="description">

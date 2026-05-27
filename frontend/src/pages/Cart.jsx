@@ -1,8 +1,8 @@
-function Favorites(){
-    return <div className="favorites-empty">
-        <h2>NO FAVORITES MOVIES YET</h2>
-        <p>Start adding movies to your favorites and they will appaer here</p>
+function Cart(){
+    return <div className="cart-empty">
+        <h2>CART IS EMPTY</h2>
+        <p>Start adding products to your cart and they will appaer here</p>
     </div>
 }
 
-export default Favorites
+export default Cart

@@ -1,10 +1,10 @@
-.favorites {
+.cart {
   padding: 2rem;
   width: 100%;
   box-sizing: border-box;
 }
 
-.favorites h2 {
+.cart h2 {
   margin-bottom: 2rem;
   text-align: center;
   font-size: 2.5rem;
@@ -12,23 +12,23 @@
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
 }
 
-.favorites-empty {
+.cart-empty {
   text-align: center;
   padding: 4rem 2rem;
-  background-color: rgba(255, 255, 255, 0.05);
+  background-color: rgba(255, 255, 255, 0.956);
   border-radius: 12px;
   margin: 2rem auto;
   max-width: 600px;
 }
 
-.favorites-empty h2 {
+.cart-empty h2 {
   margin-bottom: 1rem;
   font-size: 2rem;
   color: #e50914;
 }
 
-.favorites-empty p {
-  color: #999;
+.cart-empty p {
+  color: #f80000;
   font-size: 1.2rem;
   line-height: 1.6;
 }
@@ -38,8 +38,9 @@
 @keyframes fadeIn {
   from {
     opacity: 0;
-    transform: translateY(20px);
+    transform: translateY(80px);
   }
+
   to {
     opacity: 1;
     transform: translateY(0);
