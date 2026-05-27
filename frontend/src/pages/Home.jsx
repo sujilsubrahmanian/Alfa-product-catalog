@@ -16,8 +16,7 @@ function Home() {
       category: "DOORS",
       sizes: "4ft×7ft · 3ft×7ft · Custom",
       url: "https://cdn-icons-png.flaticon.com/512/619/619153.png",
-    },
-
+    }, 
     {
       id: 2,
       title: "Aluminium Sliding Door",
@@ -163,6 +162,8 @@ function Home() {
       sizes: "4ft×7ft · 3ft×7ft · Custom",
       url: "https://cdn-icons-png.flaticon.com/512/619/619153.png",
     },
+
+   
   ];
 
   const filteredMovies = movies.filter((movie) =>
